@@ -1,5 +1,9 @@
 
 
+{
+    box-sizing: border-box;
+}
+
 body {
     backround-color: greenyellow;
     height: 100vh;
