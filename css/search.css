@@ -5,7 +5,7 @@
 }
 
 body {
-    backround-color: greenyellow;
+    background-color: aqua;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -16,11 +16,11 @@ body {
 .search {
     height: 200px;
     width: 300px;
-    backround-color: blue;
+    background-color: grey;
     position: relative;
 }
 
-.active .btn{
+.search .btn {
     position: absolute;
     top: 0;
     left: 198;
