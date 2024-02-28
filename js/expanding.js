@@ -10,7 +10,7 @@ panels.forEach(panel => {
 
 
 function removeActiveClasses(){
-    panels.forEacj(panel => {
+    panels.forEach(panel => {
         panel.classList.remove('active')
     })
 }
