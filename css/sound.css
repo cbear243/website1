@@ -4,6 +4,9 @@ body {
     background-color: pink;
     color: white;
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 1;
     font-family: 'EB Garamond', sans serif;
 }
