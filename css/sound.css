@@ -8,11 +8,15 @@ body {
     align-items: center;
     justify-content: center;
     margin: 0;
-    font-family: 'EB Garamond', sans serif;
 }
 
 .btn {
-    background-color: white;
+    background: white;
     font-size: 1.2rem;
-    
+    padding: 1.3rem 3rem;
+    margin: 1rem;
+    border-radius: 100px;
+    border: none;
+    color: rgb(245,44,158);
+    font-family: 'EB Garamond', sans serif;
 }
