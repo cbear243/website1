@@ -19,4 +19,9 @@ body {
     border: none;
     color: rgb(245,44,158);
     font-family: 'EB Garamond', sans serif;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: pink;
 }
