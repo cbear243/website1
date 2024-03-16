@@ -1,6 +1,6 @@
 
 
-{
+* {
     box-sizing: border-box;
 }
 
@@ -21,27 +21,28 @@ body {
 .search .btn {
     position: absolute;
     top: 0;
-    left: 198;
+    left: 0px;
     font-size: 24px;
     background-color: white;
     border: 0;
     height: 50px;
     width: 50px;
     cursor: pointer;
+    transition: transform 3s ease;
 }
 
 .search .input{
-    background color: white;
+    background-color: white;
     border: 0;
-    font-size: 10px;
+    font-size: 18px;
     height: 50px;
     width: 50px;
     padding: 15px;
-    box-sizing: border-box;
+    transition: width 3s ease;
 }
 
 .search .input:focus {
-    ouline: none;
+    outline: none;
 }
 
 .search.active .input {
@@ -49,5 +50,5 @@ body {
 }
 
 .search.active .btn {
-    tranform: translateX(198px);
+    transform: translateX(198px);
 }
