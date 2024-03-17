@@ -107,4 +107,5 @@ input[type='submimt'] {
     padding: 15px;
     margin: 0 auto;
     width: 800px;
+    max-width: 100%;
 }
