@@ -155,5 +155,14 @@ modal-header h3 {
 .modal-form label {
     display: block;
     margin-bottom: 5px;
+}
+
+.modal-form .form-input {
+    padding: 8px;
+    width: 100%;
+}
+
+.close-btn {
+    position: absolute;
     
 }
