@@ -134,5 +134,6 @@ input[type='submimt'] {
 }
 
 .modal-header {
-    background 
+    background-color: var(--primary-color);
+    color: white;
 }
