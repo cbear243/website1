@@ -154,5 +154,6 @@ modal-header h3 {
 
 .modal-form label {
     display: block;
+    margin-bottom: 5px;
     
 }
